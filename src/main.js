@@ -37,4 +37,4 @@ class err4 {
 }
 
 
-module.exports = options => new primata(options);
+module.exports = options => new err4(options);
