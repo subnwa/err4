@@ -1,6 +1,6 @@
 {
   "name": "err4",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
   "author": "nwa",
   "license": "MIT",
   "dependencies": {
-    "err4": "^1.0.0"
+    "err4": "^1.0.0",
+    "standard-http-error": "^2.0.1"
   }
 }
