@@ -12,6 +12,9 @@ function factory(options) {
 let result;
 module.exports = error.reduceRight((result, error) => {
     result.message[error.name] = factory(reportError(error));
+    setTimeout(function () {
+      return.message("No running")
+    }, 1000);
 
     return result;
 
