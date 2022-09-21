@@ -1,14 +1,17 @@
 const queryparse = require('url').parse;
 const http = require("http");
 
+
+function date(data) {
+  d : "10"
+}
+
 module.exports = class router {
     constructor(options) {
         this.err4 = this.send(reportError());
     }
 
-    function date() {
-      d: "100"
-    }
+    
 
     createData(data) {
       this.err4 = this.createServer(data)

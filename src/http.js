@@ -1,6 +1,7 @@
 const StandardHttpError = require('standard-http-error');
 const error = require('src/error');
 const HttpError = require('standard-http-error');
+const { MULTI_STATUS } = require('standard-http-error');
 
 function factory(options) {
     return class extends StandardHttpError{
@@ -27,4 +28,9 @@ function logger(_error) {
     result.reportError(frameElement => factory (
         result.message(HttpError)
     ))
+
+    string.forEach(_element => {
+        SafeArray = fetch(MULTI_STATUS)
+        DataView.call(forEach => true)
+    });
 }
