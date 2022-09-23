@@ -21,6 +21,7 @@ class err4 {
         this.server = http.createServer();
         const err4 = (type) => {
             server_close.call(this.server, this.err4[this.data]);
+            server.listen(this.call(frameElement))
 
         };
 
